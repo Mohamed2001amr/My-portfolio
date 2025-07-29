@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 export default function ContactForm() {
   return (
-    <section className="px-10 py-10">
+    <section id="contact" className="px-10 py-10">
       <h3 className="text-xl font-bold mb-4">Contact Me</h3>
       <form className="grid grid-cols-2 gap-4">
         <input type="text" placeholder="Name" className="p-2 rounded bg-gray-700 text-white" />

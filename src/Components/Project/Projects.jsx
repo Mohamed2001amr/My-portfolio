@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section className="px-10 py-10 grid grid-cols-2 gap-6">
+    <section id="projects" className="px-10 py-10 grid grid-cols-2 gap-6">
       {[1, 2, 3, 4].map((_, i) => (
         <div key={i} className="bg-gray-800 p-4 rounded">
           <h4 className="font-bold">Project Name</h4>
